@@ -46,6 +46,19 @@ body{
     color: white;
     font-size: 15px;
 }
+
+.bi-lock-fill{
+    color: orange;
+}
+
+.bi-truck{
+    color: orange;
+}
+
+.bi-geo-alt-fill{
+    color: orange;
+}
+
 .nave-bar {
     width: 100%;
     max-width: 1200px;
