@@ -1,0 +1,123 @@
+
+/* CSS RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Shrikhand", serif;
+}
+
+
+
+.info-bar{
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #131313;
+    
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #131313;
+    padding: 20px;
+    align-items: center;
+}
+
+.info-bar .CompraSegura{
+    color: white;
+    font-size: 15px;
+}
+
+.info-bar .FreteGratis{
+    color: white;
+    font-size: 15px;
+}
+
+.info-bar .Entrgemos{
+    color: white;
+    font-size: 15px;
+}
+.nave-bar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+
+.nave-bar .HooperLogo{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    
+    
+}
+
+.nave-bar .BotaoLoja{
+    font-family: "Shrikhand", serif;
+    font-size: 15px;
+    color: orange;
+    background-color: black;
+    border: none;
+}
+
+.nave-bar .BotaoMinhaConta{
+    font-family: "Shrikhand", serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.nave-bar .BotaoSobreNos{
+    font-family: "Shrikhand", serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.nave-bar .BotaoReclame {
+    font-family: "Shrikhand", serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.nave-bar .BotaoCarrinho{
+    font-family: "Shrikhand", serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.KobeBanner {
+   width: auto;   
+}
+
+.KobeBanner img{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
