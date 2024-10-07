@@ -134,3 +134,14 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.Hoop {
+    background-color: #131313;
+}
+
+
+.LineHoop {
+    display: flex;
+    justify-content: space-between;
+    
+}
