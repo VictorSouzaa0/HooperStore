@@ -144,10 +144,8 @@ body{
 }
 
 .Base {
-    max-width: 1140;
     background-color: black;
-    display: flex;
-    padding: 30px;
+    padding:10px;
 }
 
 .BaseCentralizada {
@@ -155,11 +153,66 @@ body{
 }
 
 .BaseCentralizada {
-    width: 100%;
-    max-width: 1140px;
-    background-color: greenyellow;
+    width: 1140px;
+    height: 400px;
+    background-color: black;
     margin: 0 auto;
     display: flex;
+    justify-content:space-between;
+    
+}
+
+.flutuante {
+    background-color: #060606;
+    width: 250px;
+    height: 400px;
+}
+
+.flutuante2 {
+    background-color: #060606;
+    width: 250px;
+    height: 400px;
+}
+
+.flutuante3 {
+    background-color: #060606;
+    width: 250px;
+    height: 400px;
+}
+.flutuante4 {
+    background-color:#060606;
+    width: 250px;
+    height: 400px;
+}
+
+.Produto1-1 {
+    text-align: center;
+
+
+}
+.KobePurple {
+    max-width: 100%;
+
+}
+
+.modelo {
+    display: flex;
     justify-content: center;
-    padding: 200px;
+}
+
+.modelo p{
+    color: orange;
+}
+
+.Caixin p{
+    color: white;
+}
+
+.valores {
+    display: flex;
+    justify-content: center;
+}
+
+.valores p{
+    color: orange;
 }
