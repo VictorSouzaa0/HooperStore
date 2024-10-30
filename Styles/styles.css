@@ -340,16 +340,21 @@ body{
 
 .midia h1{
     color: orange;
+    max-width: 100px;
+
 }
 
-.midia {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.midia{
+
+}
+.midia div{
+    max-width:100px;
+   
 }
 .midia img{
     width: 100%;
     height: 10%;
     object-fit: cover;
+
 }
 
