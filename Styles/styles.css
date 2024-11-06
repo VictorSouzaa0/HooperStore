@@ -1,5 +1,5 @@
-
 /* CSS RESET */
+/* Definindo o estilo global para remover o padding e margin padrão */
 *{
     padding: 0;
     margin: 0;
@@ -7,19 +7,20 @@
 
 }
 
+/* Importando a fonte principal do site*/
+
 body{
     font-family: "Shrikhand", serif;
 }
 
-
-
+/* Estilo da barra de informações no topo da página */
 .info-bar{
     font-weight: 700;
     font-size: 14px;
     background-color: #131313;
     
 }
-
+/* Centralizando o conteúdo da info-bar */
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -31,7 +32,7 @@ body{
     padding: 20px;
     align-items: center;
 }
-
+/* Estilizando para texto e cor de ícones na infor-bar */
 .info-bar .CompraSegura{
     color: white;
     font-size: 15px;
@@ -58,7 +59,7 @@ body{
 .bi-geo-alt-fill{
     color: orange;
 }
-
+/* Barra de navegação principal */
 .nave-bar {
     width: 100%;
     max-width: 1200px;
@@ -69,9 +70,7 @@ body{
     justify-content: space-between;
     padding: 15px;
 }
-
-
-
+/* Definindo o tamanho logo da loja */
 .nave-bar .HooperLogo{
     display: flex;
     justify-content: center;
@@ -79,7 +78,7 @@ body{
     
     
 }
-
+/* Estilo dos botões da barra da nav-bar */
 .nave-bar .BotaoLoja{
     font-family: "Shrikhand", serif;
     font-size: 15px;
@@ -88,7 +87,7 @@ body{
     border: none;
     cursor: pointer;
 }
-
+/* Adcionando o hover transparente e nos botões da nav-bar*/
 .nave-bar .BotaoLoja:hover{
     background-color: rgba(128, 128, 128, 0.5);
     border-radius: 10%;
@@ -155,7 +154,7 @@ body{
 .KobeBanner {
    width: auto;   
 }
-
+/* Estilo banner principal da loja*/
 .KobeBanner img{
     width: 100%;
     max-width: 1140px;
@@ -163,27 +162,28 @@ body{
     display: flex;
     justify-content: center;
 }
-
+/* Quebra de linha*/
 .Hoop {
     background-color: #131313;
 }
 
-
+/* Definindo o container da linha de produtos (linha de tênis Kobe) */
 .LineHoop {
     display: flex;
     justify-content: space-between;
-    
+    gap: 20px;
+    padding: 20px 0;
 }
 
 .Base {
     background-color: black;
     padding:10px;
 }
-
+/* Definindo o estilo da base de produtos */
 .BaseCentralizada {
     width: auto;
 }
-
+/* Centralizando os elementos dentro da Base */
 .BaseCentralizada {
     width: 1140px;
     height: 400px;
@@ -193,41 +193,18 @@ body{
     justify-content:space-between;
     
 }
-
-.flutuante {
-    background-color: #060606;
-    width: 250px;
-    height: 400px;
-    cursor: pointer;
-}
-
-.flutuante2 {
-    background-color: #060606;
-    width: 250px;
-    height: 400px;
-    cursor: pointer;
-}
-
-.flutuante3 {
-    background-color: #060606;
-    width: 250px;
-    cursor: pointer;
-}
-.flutuante4 {
-    background-color:#060606;
-    width: 250px;
-    height: 400px;
-    cursor: pointer;
-}
-
-.Produto1-1 {
+/* Estilo para cada produto flutuante */
+.flutuante, .flutuante2, .flutuante3, .flutuante4 {
+    width: 200px;
+    padding: 15px;
+    background-color:#131313;
+    border-radius: 8px;
     text-align: center;
-
-
 }
+
+/* Tamanho dos produtos */
 .KobePurple {
     max-width: 100%;
-
 }
 
 .modelo {
@@ -251,7 +228,7 @@ body{
 .valores p{
     color: orange;
 }
-
+/* Separador no rodapé */
 .sep{
     background-color: #131313;
     height: 15px;
@@ -316,7 +293,7 @@ body{
 .Atendimento h1{
     color: orange;
 }
-
+/*Colorindo bootstrap do Atendimento */
 .bi-clock{
     color: white;
 }
@@ -344,9 +321,6 @@ body{
 
 }
 
-.midia{
-
-}
 .midia div{
     max-width:100px;
    
@@ -357,4 +331,3 @@ body{
     object-fit: cover;
 
 }
-
